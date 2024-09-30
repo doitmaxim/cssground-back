@@ -1,0 +1,17 @@
+{
+  "name": "simple-backend",
+  "scripts": {
+    "dev": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.1",
+    "hono": "^4.6.3",
+    "node-html-to-image": "^5.0.0",
+    "pixelmatch": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "@types/pixelmatch": "^5.2.6",
+    "tsx": "^4.7.1"
+  }
+}
